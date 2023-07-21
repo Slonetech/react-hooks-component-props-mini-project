@@ -7,7 +7,7 @@ function ArticleList({posts}) {
     
   
     return (
-      <div>
+      
         <main>
           {posts.map((post) => {
             return (
@@ -21,7 +21,7 @@ function ArticleList({posts}) {
             );
           })}
         </main>
-      </div>
+      
     );
   }
   

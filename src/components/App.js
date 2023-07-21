@@ -6,13 +6,12 @@ import ArticleList from "./ArticleList";
 // console.log(blogData);
 
 function App() {
-  const { name, about, posts , image } = blogData;
+  const { name, about, posts, image } = blogData;
   return (
     <div className="App">
-      <Header name= {name} />
-      <About image={image} about={about}/>
+      <Header name={name} />
+      <About image={image} about={about} />
       <ArticleList posts={posts} />
-
     </div>
   );
 }
